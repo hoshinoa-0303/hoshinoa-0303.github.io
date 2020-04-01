@@ -48,3 +48,4 @@ plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
 
+permalink: /blog/:year/:month/:day/:title
