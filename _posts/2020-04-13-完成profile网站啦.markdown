@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "完成profile网站啦"
+date:   2020-04-13
+categories: post
+---
+Hello！
+
+距离上一篇日志已经有好几天了……今天总算把我的个人profile网站制作完啦！
+
+之前开始使用WordPress的时候，我其实很喜欢WordPress那种可以可视化的网站制作过程的。毕竟可视化状态下不需要写代码，就只需要把自己需要的区块组合起来，建立好网站框架之后，把东西填进去完成布局就行了。为了建个站，我去租了一年的服务器（中途为了存储空间又升级了一下套餐），买了域名，该课金的地方也都给了钱……只是我也很担心接下来能不能维持下去……所以前段时间，看到memo酱制作了GitHub Page之后，我也想重新拾回了。
+
+虽然GitHub Page虽然很大的好处的就是，免费部分就能满足自己很多需求，但是……写代码的确不容易。这次为了实现在GitHub Page上建立个人profile网站，我看了好几个教程。GitHub Page我最初是使用了hexo搭配构建，但是hexo失败了好几次……然后上次写日志的时候提到的Jekyll，是GitHub Page官方推荐使用的一个程序，所以我也去试了一下，意外地发现其实并没有想象中那么难……而上次我也成功利用别人的模板，把现在的日志建立起来了。不过在那之后，我又在想……那个模板虽然不错，但是感觉还是想从头自己试着建立一遍……于是我就开始看html教程……当时看的教程是来自一个叫菜鸟教程的网站。
+
+[教程链接]: https://www.runoob.com/	"菜鸟教程"
+
+这个网站有很多和网页制作相关的教程，也有一些参考资料，而且还有附带实时浏览结果的在线代码编辑器，可以边修改代码边查看生效结果，真的很方便。在我学习html教程的时候，我还看到了一个叫bootstrap的工具的教程，发现这个工具对于响应式设计网站（大意是可适应各种屏幕大小显示的网站）还挺好用的。于是我也开始边看基础教程，边学习bootstrap的使用方法。
+
+[bootstrap]: https://getbootstrap.net/	"bootstrap中文版文档"
+
+同时也发现了另外一个网页制作教程网，是来自MDN的。下面是来自MDN web Docs的介绍。
+
+> MDN Web Docs 是一个提供 Web 技术和促进 Web 技术软件的不断发展的学习平台，包括：
+>
+> - Web 标准（例如：[CSS](https://developer.mozilla.org/zh-CN/docs/CSS)、[HTML](https://developer.mozilla.org/zh-CN/docs/HTML) 和 [JavaScript](https://developer.mozilla.org/zh-CN/docs/JavaScript)）
+> - [开放 Web 应用开发](https://developer.mozilla.org/zh-CN/docs/)
+> - [Firefox 附加组件开发](https://developer.mozilla.org/zh-CN/docs/Add-ons)
+
+[MDN web docs]: https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML	"MDN学习web开发-学习HTML"
+
+在这里我也看到了很多教程，我一边和菜鸟教程进行对比，一边搭配bootstrap中文版说明文档，开始了我的个人profile网站制作。虽然中途有很多不懂的地方，我经常有无法理解的地方，需要去查资料或者看视频教程……而且，有时候布局有不完美的地方，需要一遍一遍地对照浏览器修改……有时候代码太多都看到眼花……但最后还是成功制作完毕了！就在今天！中途也有参考过一些范例网站的源代码……这个时候真的特别感谢chrome的开发者模式！以往我用这个开发者模式除了为了扒图或者扒档就没做啥了，没想到这次派上用场了！使用开发者模式的source模式，在看代码的时候有对应的光标在网页上显示，从而可以判断代码对应的效果是怎么样……这个真的太好用了！之前我都只能修改完html文档之后保存了，再在浏览器了打开查看效果。但是从chrome的开发者模式和视频教程得到启发，我今天换了一个软件写代码——来自Adobe的Brackets。这个可以实时浏览，也让我修改的时候比较直观看到效果。在这之前我所使用的软件，是我之前研究扒档和别的东西的时候安装的……VS code（来自微软的软件）。不过以后应该还会有用到这个软件的时候吧w虽然我已经打算以后做新的网站的时候用Brackets了www
+
+现在个人profile网站已经建起来了，并且今天通过修改目录布局，已经成功上传到GitHub啦！
+
+[我的个人简介]: https://hoshinoa-0303.github.io/Hoshinoa-profile/	"Hoshino Arisa Profile"
+
+以后如果学到更多知识的话，应该还会修改这个网站的吧……我要努力多学点知识，争取自己通过GitHub Page建立自己的个站。不太记得我的域名是不是永久了……但是我想终有一天我可能还是要放弃WordPress的，毕竟服务器和域名付费这个……我能坚持多久都难说，也不是不愿意花钱，只是万一自己玩腻了，这就浪费了（笑）不过在这之前得先努力学知识呢（笑）到时候也方便我转移blog到GitHub Page上呢（笑）
+
+接下来的计划……目前打算继续看教程学习知识，所以还需要加油呢！有什么新发现或者收获，还会来写日志的！
+
+（我发现即使是写这类日志，我还是很话痨www）
