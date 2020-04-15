@@ -13,6 +13,9 @@ plainwhite:
   tagline: Just be myself.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
+  navigation:
+    - title: profile
+      url: "https://hoshinoa-0303.github.io/Hoshinoa-profile"
 
   # generate social links in footer
   social_links:
