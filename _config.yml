@@ -14,8 +14,12 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
+    - title: blog
+      url: "https://hoshinoa-0303.github.io/blog"
     - title: profile
       url: "https://hoshinoa-0303.github.io/Hoshinoa-profile"
+    - title: wlog
+      url: "https://hoshinoa-0303.github.io/wlog"
 
   # generate social links in footer
   social_links:
