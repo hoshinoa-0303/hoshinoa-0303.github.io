@@ -9,48 +9,98 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <title>{{ page.title | default: site.title }}</title>
 <style>
-    body {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  line-height: 1.2em;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #cfb39e
-}
-    h6 {
-  background: #f8f5f0;
-  box-shadow: 0px 0px 0px 5px #f8f5f0;
-  border: dashed 2px white;
-  padding: 0.2em 0.5em;
-  color: #cfb39e;
-}
+    *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f2f2f2;
+            font-family: "Raleway", sans-serif;
+        }
+
+        .about {
+            display: block;
+            width: 500px;
+            margin: 50px auto;
+            background-color: white;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 1px 1px 7px 2px rgba(133, 133, 133, 0.3);
+        }
+
+        .title {
+            margin-top: 25px;
+            margin-bottom: 0;
+            color: #222222;
+            font-size: 30px;
+            font-weight: 550;
+        }
+
+        .tagline {
+            margin-top: 18px;
+            color: #aaa;
+            font-size: 20px;
+            font-weight: 350;
+            white-space: pre-wrap;
+            line-height: normal;
+        }
+
+        .about img {
+            max-width: 150px;
+            margin-top: 50px;
+        }
+
+        .about .list {
+            display: block;
+            width: 345px;
+            height: 40px;
+            margin: 50px auto;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        ul li {
+            float: left;
+            margin-left: 17px;
+        }
+
+        ul li a {
+            padding: 8px 14px;
+            background-color: white;
+            border: 1px solid rgb(216, 216, 216);
+            border-radius: 5px;
+            color: #222222;
+            font-size: 14px;
+            font-weight: 320;
+            line-height: 40px;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            box-shadow: 1px 1px 7px 2px rgba(133, 133, 133, 0.3);
+        }
 </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1 id="title" class="text-center mt-5 mb-3">Gemini Starla</h1>
-        <p class="tagline font-weight-light text-center mt-3 mb-3">Enjoy my life!</p>
-        <div class="text-center">
-            <img class="rounded mt-3 mb-3" src={{ "/assets/homepage.JPG" | relative_url }} alt="homepage image" width="460" height="300">
-        </div>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4 mt-4 mb-3 ml-3 mr-3">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/blog"><h6>Blog</h6></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Hoshinoa-profile"><h6>Profile</h6></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/wlog"><h6>more...</h6></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4"></div>
+   <div class="about">
+        <img src="/assets/portfolio.png" alt="portfolio">
+        <h2 class="title">{{ page.title | default: site.title }}</h2>
+        <p class="tagline">Enjoy my life!</p>
+        <div class="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/Hoshinoa-profile">Profile</a></li>
+                <li><a href="/wlog">Wlog</a></li>
+            </ul>
         </div>
     </div>
 
